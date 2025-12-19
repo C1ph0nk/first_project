@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1920</width>
-    <height>878</height>
+    <height>877</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -269,9 +269,9 @@
     <property name="geometry">
      <rect>
       <x>1370</x>
-      <y>190</y>
+      <y>180</y>
       <width>341</width>
-      <height>311</height>
+      <height>331</height>
      </rect>
     </property>
     <property name="font">
@@ -306,9 +306,9 @@
    <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>530</y>
-      <width>311</width>
+      <x>660</x>
+      <y>520</y>
+      <width>101</width>
       <height>51</height>
      </rect>
     </property>
@@ -322,7 +322,7 @@
 </string>
     </property>
     <property name="text">
-     <string>giá:20000 vnđ</string>
+     <string>price: 20000 vnđ</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_15">
@@ -344,14 +344,14 @@
 </string>
     </property>
     <property name="text">
-     <string>giá:15000 vnđ</string>
+     <string>price: 15000 vnđ</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_17">
     <property name="geometry">
      <rect>
-      <x>1410</x>
-      <y>540</y>
+      <x>1380</x>
+      <y>530</y>
       <width>411</width>
       <height>51</height>
      </rect>
@@ -366,10 +366,10 @@
 </string>
     </property>
     <property name="text">
-     <string>giá:360000 vnđ</string>
+     <string>price: 360000 vnđ</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="deltail1">
+   <widget class="QPushButton" name="detail1">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -389,15 +389,15 @@ color:white;
 border-radius:20</string>
     </property>
     <property name="text">
-     <string>xem chi tiết</string>
+     <string>detail</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_18">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>10</x>
       <y>540</y>
-      <width>461</width>
+      <width>511</width>
       <height>41</height>
      </rect>
     </property>
@@ -411,10 +411,10 @@ border-radius:20</string>
 </string>
     </property>
     <property name="text">
-     <string>giá giảm:9000000000000000000000000000000000000 vnđ GIẢM SÂU - 20000%</string>
+     <string>lowest price: 9000000000000000000000000000000000000 vnđ BIG DISCOUNT - 20000%</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="SQLi">
     <property name="geometry">
      <rect>
       <x>390</x>
@@ -449,7 +449,7 @@ color:white;
 border-radius:20</string>
     </property>
     <property name="text">
-     <string>xem chi tiết</string>
+     <string>detail</string>
     </property>
    </widget>
    <widget class="QPushButton" name="detail3">
@@ -472,14 +472,14 @@ color:white;
 border-radius:20</string>
     </property>
     <property name="text">
-     <string>xem chi tiết</string>
+     <string>detail</string>
     </property>
    </widget>
    <widget class="QPushButton" name="detail4">
     <property name="geometry">
      <rect>
-      <x>1480</x>
-      <y>600</y>
+      <x>1450</x>
+      <y>610</y>
       <width>201</width>
       <height>41</height>
      </rect>
@@ -495,30 +495,39 @@ color:white;
 border-radius:20</string>
     </property>
     <property name="text">
-     <string>xem chi tiết</string>
+     <string>detail</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="buy4">
+   <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>1480</x>
-      <y>650</y>
-      <width>201</width>
-      <height>41</height>
+      <x>1400</x>
+      <y>10</y>
+      <width>441</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <family>Yu Gothic UI Semilight</family>
+      <pointsize>28</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>false</kerning>
      </font>
     </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color:orange;
-color:white;
-border-radius:20</string>
+     <string notr="true">color:blue;
+</string>
     </property>
     <property name="text">
-     <string>mua</string>
+     <string>&lt;-- code: mysteryproduct</string>
     </property>
    </widget>
   </widget>

@@ -38,7 +38,7 @@
      <string notr="true">color:rgb(0, 0, 255)</string>
     </property>
     <property name="text">
-     <string>Thanh toán thành công</string>
+     <string>payment successfully</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -62,7 +62,7 @@
      <string notr="true">color:rgb(0, 0, 255)</string>
     </property>
     <property name="text">
-     <string>Sản phẩm: tự biết</string>
+     <string>Product: .....</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -86,10 +86,10 @@
      <string notr="true">color:rgb(0, 0, 255)</string>
     </property>
     <property name="text">
-     <string>Tổng tiền phải trả: tự biết luôn</string>
+     <string>total payment: .....</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="registerbutton">
+   <widget class="QPushButton" name="close">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -105,100 +105,11 @@
     </property>
     <property name="styleSheet">
      <string notr="true">background-color:rgb(255, 170, 0);
-border-radius:10;</string>
+border-radius:10;
+color:white;</string>
     </property>
     <property name="text">
-     <string>Đóng</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>120</x>
-      <y>300</y>
-      <width>141</width>
-      <height>131</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial</family>
-      <pointsize>23</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color:rgb(0, 0, 255)</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../img/atm-card.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>300</y>
-      <width>141</width>
-      <height>131</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial</family>
-      <pointsize>23</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color:rgb(0, 0, 255)</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../img/cod.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>300</y>
-      <width>141</width>
-      <height>131</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial</family>
-      <pointsize>23</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color:rgb(0, 0, 255)</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../img/visa.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
+     <string>Back</string>
     </property>
    </widget>
   </widget>

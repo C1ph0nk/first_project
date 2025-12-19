@@ -241,7 +241,7 @@ border-radius:20</string>
 </string>
     </property>
     <property name="text">
-     <string>Giá giảm: chưa có</string>
+     <string>Discount: chưa có</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_25">
@@ -263,7 +263,7 @@ border-radius:20</string>
 </string>
     </property>
     <property name="text">
-     <string>Giá: 20000 VNĐ</string>
+     <string>Price: 20000 VNĐ</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_26">
@@ -271,7 +271,7 @@ border-radius:20</string>
      <rect>
       <x>120</x>
       <y>440</y>
-      <width>461</width>
+      <width>561</width>
       <height>41</height>
      </rect>
     </property>
@@ -285,10 +285,10 @@ border-radius:20</string>
 </string>
     </property>
     <property name="text">
-     <string>Mô tả: Vòng bi concave quay mượt,chẳng qua thiếu 1 bi do gia công có vấn đề</string>
+     <string>Description: Vòng bi concave quay mượt,chẳng qua thiếu 1 bi do gia công có vấn đề</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="buy4_2">
+   <widget class="QPushButton" name="buy2">
     <property name="geometry">
      <rect>
       <x>320</x>
@@ -308,15 +308,15 @@ color:white;
 border-radius:20</string>
     </property>
     <property name="text">
-     <string>mua</string>
+     <string>Buy</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_27">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>240</y>
-      <width>191</width>
+      <x>310</x>
+      <y>230</y>
+      <width>221</width>
       <height>41</height>
      </rect>
     </property>
@@ -330,7 +330,7 @@ border-radius:20</string>
 </string>
     </property>
     <property name="text">
-     <string>Mô tả sản phẩm</string>
+     <string>Product description</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_28">
@@ -352,7 +352,7 @@ border-radius:20</string>
 </string>
     </property>
     <property name="text">
-     <string>Tên sản phẩm: 10 ball bearing for unresponsive yoyo</string>
+     <string>Product's name: 10 ball bearing for unresponsive yoyo</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_29">
@@ -374,7 +374,7 @@ border-radius:20</string>
 </string>
     </property>
     <property name="text">
-     <string>Hãng: Magicyoyo</string>
+     <string>Company: Magicyoyo</string>
     </property>
    </widget>
    <widget class="QLabel" name="Bearing">
@@ -413,6 +413,29 @@ border-radius:20</string>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back2">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>0</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:orange;
+color:white;
+border-radius:20</string>
+    </property>
+    <property name="text">
+     <string>back</string>
     </property>
    </widget>
   </widget>
