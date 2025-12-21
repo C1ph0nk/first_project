@@ -96,15 +96,17 @@ class Home(QMainWindow):
 
     def out(self):
         reply = QMessageBox.question(
-            self,                               # parent
-            "Đăng xuất",                        # tiêu đề popup
-            "Bạn có chắc chắn muốn đăng xuất?", # nội dung
-            QMessageBox.Yes | QMessageBox.Cancel,
-            QMessageBox.Cancel
+            self,
+            "Đăng xuất",
+            "Bạn có chắc chắn muốn đăng xuất không?",
+            QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.Cancel,
+            QMessageBox.StandardButton.Cancel
         )
-        if reply == QMessageBox.Yes:
+
+        if reply == QMessageBox.StandardButton.Yes:
             login.show()
             self.close()
+
     #BACK
     def phoneup(self):
         Phone.show()
