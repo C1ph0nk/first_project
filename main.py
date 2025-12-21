@@ -40,6 +40,7 @@ class Register(QMainWindow):
 
     def logup(self):
         login.show()
+        self.close()
 
 
 class Login(QMainWindow):
