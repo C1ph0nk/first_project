@@ -228,15 +228,15 @@ color:blue
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>60</y>
-      <width>381</width>
+      <x>190</x>
+      <y>50</y>
+      <width>541</width>
       <height>111</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Rage Italic</family>
+      <family>Arial</family>
       <pointsize>40</pointsize>
      </font>
     </property>
